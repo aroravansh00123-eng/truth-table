@@ -10,8 +10,9 @@ engine.runAndWait()
 while True:
     operator=input("Enter the logic operator AND, OR, NOT, NAND, NOR & exit to quit:")
     operator=operator.lower()
-    a= True
-    b= False
+    a = True
+    b = False
+#applying condition to give proper data to user
     if operator=="exit":
         print("YOU ARE EXITED FROM GIVEN LOGICAL GATE TRUTH TABLE PROGRAM")
         break
